@@ -1,8 +1,27 @@
-/* CSS HEX */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
 :root{
+background-color: var(--lavender-blush) ;
 --african-violet: #9c89b8ff;
 --lavender-pink: #f0a6caff;
 --pink-lavender: #efc3e6ff;
 --lavender-blush: #f0e6efff;
 --periwinkle: #b8beddff;
+color: black;
+font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.heroSection{
+    background-image: url("./images/Hero2.jpg");
+    height: 100vh;
+    background-size: cover ;
+    background-repeat: no-repeat;
+
+}
+
+.heroHeading{
+   color: white;
+   font-size: 10vh;
+   margin: auto;
 }

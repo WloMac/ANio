@@ -4,9 +4,9 @@ import heroImage from "../images/Hero.jpg"
 
 export default function Hero(){
     return( 
-        <>
-             <img src={heroImage} alt="Hero image" />
-        </>
+        <section className="heroSection">
+             <h1 className="heroHeading"> ANio</h1>
+        </section>
 
     );
 
