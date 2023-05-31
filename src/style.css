@@ -11,10 +11,27 @@ color: black;
 font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.navbar{
+    background-color: var(--lavender-pink);
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.navbar a{
+    color: white;
+}
+
+.container{
+    position: relative;
+    
+}
+
 
 .heroSection{
     background-image: url("./images/Hero2.jpg");
-    height: 100vh;
+    height: 80vh;
     background-size: cover ;
     background-repeat: no-repeat;
 
