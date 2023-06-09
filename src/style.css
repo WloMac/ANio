@@ -51,7 +51,6 @@ background-color: var(--lavender-blush) ;
     min-height: 100vh;
     display: grid;
     place-items: center;
-    border: 5px solid;
     font-size: xx-large;
       
 }
@@ -97,3 +96,10 @@ overflow: hidden;
     padding-bottom: 2rem;
 }
 
+
+
+
+/* Footer */
+footer{
+    background-color: var(--lavender-pink);
+}
