@@ -48,10 +48,22 @@ background-color: var(--lavender-blush) ;
 
 /* About */
 .about{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
     border: 5px solid;
     font-size: xx-large;
-    padding: 2.6vh 20vw 2.6vh 20vw;
-    
+      
+}
+
+.aboutRow{
+    width: 75%;
+    /* max-width: 1170px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 2fr;
+    grid-gap: 50px 30px;
+
 }
 .aboutTitle{
     padding-top: 2.6vh;
@@ -61,12 +73,27 @@ background-color: var(--lavender-blush) ;
 }
 
 .aboutContent{
+    padding: 3rem;
     text-align: justify;
+    object-fit: cover;
     
 }
 
-.--aboutImg{
-    float: right;
-    height: 35%;
-    width: 35%;
+.aboutImage{
+overflow: hidden;
 }
+
+.aboutRow .aboutImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.aboutRow .aboutContent p{
+    font-size: 2rem;
+    line-height: 3,5rem;
+    padding-bottom: 2rem;
+}
+

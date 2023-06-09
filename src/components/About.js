@@ -5,20 +5,27 @@ import aboutImg from "../images/about.jpg"
 export default function About() {
   return (
     <section className="about">
-        <div className="aboutContent">
-            
-      <h1 className="aboutTitle"> O nas </h1>
+        <h1 className="aboutTitle"> O nas </h1>
       <hr></hr>
-      <img src={aboutImg} className="--aboutImg" alt="About Image"></img>
-      <p>
+        <div className="aboutRow">
+        
+        <div className="aboutContent">
+
+        <p>
       W ANio nieustannie dążymy do tworzenia niezapomnianych doznań smakowych. Jesteśmy pasjonatami w dziedzinie
       produkcji tortów, pralin i czekolady, dbając o najdrobniejsze detale, aby
-      zadowolić podniebienia naszych klientów. Dedykacja do
+      zadowolić podniebienia naszych klientów. 
+      </p>
+      
+      <p>Dedykacja do
       ręcznej pracy i sztuki cukierniczej czyni nas unikalnymi na rynku.
       Produkty ANio wyróżniają się nie tylko niepowtarzalnym smakiem, ale także
       estetycznym wykończeniem, które sprawia, że są one prawdziwymi dziełami
       sztuki. W swojej pracy używamy jedynie najwyższej jakości składników, starannie dobierając
-      je, aby zapewnić naszym klientom pełną satysfakcję. ANio powstało na bazie wieloletniego doświadczenia,
+      je, aby zapewnić naszym klientom pełną satysfakcję. 
+      </p>
+      
+      <p>ANio powstało na bazie wieloletniego doświadczenia,
       jednak wciąż nieustannie poszerzamy swoje
       umiejętności i eksperymentujemy z nowymi smakami i kształtami. Stawiamy na
       innowacyjność i twórcze podejście, aby zaskakiwać naszych klientów
@@ -28,8 +35,13 @@ export default function About() {
       stworzyć dla Ciebie coś wyjątkowego.
       </p>
 
+      </div>
       
-    </div>
+      <div className="aboutImage">
+      <img src={aboutImg} className="--aboutImg" alt="About Image"></img>
+      </div>
+
+      </div>
     </section>
   );
 }
