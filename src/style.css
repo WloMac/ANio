@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
 
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+}
 :root{
 background-color: var(--lavender-blush) ;
---african-violet: #9c89b8ff;
+--african-violet: #9c89b8;
 --lavender-pink: #f0a6caff;
 --pink-lavender: #efc3e6ff;
 --lavender-blush: #f0e6efff;
 --periwinkle: #b8beddff;
-color: black;
-font-family: 'Montserrat Alternates', sans-serif;
 }
+
 
 .navbar{
     background-color: var(--lavender-pink);
@@ -41,4 +44,29 @@ font-family: 'Montserrat Alternates', sans-serif;
    color: white;
    font-size: 10vh;
    margin: auto;
+}
+
+/* About */
+.about{
+    border: 5px solid;
+    font-size: xx-large;
+    padding: 2.6vh 20vw 2.6vh 20vw;
+    
+}
+.aboutTitle{
+    padding-top: 2.6vh;
+    padding-bottom: 2.6vh;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.aboutContent{
+    text-align: justify;
+    
+}
+
+.--aboutImg{
+    float: right;
+    height: 35%;
+    width: 35%;
 }
