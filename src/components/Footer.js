@@ -4,7 +4,7 @@ import "../style.css";
 
 
 export default function Footer(){
-
+    
     return(
         <footer>
         <div className="footerRow">
@@ -15,13 +15,17 @@ export default function Footer(){
 
             </div>
             <div className="footerRight">
+                <p>Kontakt</p>
                 <span>
-                <a href="mailto:"></a><FaEnvelope />
+                <a href="mailto:artur.nijakowski@op.pl?subject=Kontakt_przez_strone"><FaEnvelope /></a>
+{/* Advise: hide email */}
                 <a href="https://www.facebook.com/p/ANio-100028283605382/"><FaFacebookSquare /></a>
                 <FaInstagram />
                 </span>
-            </div>
-        
+            </div>        
+        </div>
+        <div className="footerRow">
+
         </div>
         </footer>
     )
