@@ -6,9 +6,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavigationBar() {
   return (
+   
     <Navbar className="navbar" expand="lg">
       {/* <Container className='container'> */}
-        <Navbar.Brand href="#home"><h1 className="heroHeading"> ANio</h1></Navbar.Brand>
+        <Navbar.Brand href="#home"><h1 className="heroHeading anioFont"> ANio</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -19,6 +20,7 @@ function NavigationBar() {
         </Navbar.Collapse>
       {/* </Container> */}
     </Navbar>
+    
   );
 }
 
