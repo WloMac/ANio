@@ -21,13 +21,24 @@ background-color: var(--lavender-blush) ;
 
 
 .navbar{
-    background: #ee9ca7;  /* fallback for old browsers */
+    background: #ee9ca7;  /*fallback for old browsers */    
     background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left,  #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Montserrat Alternates', sans-serif;
     color: white;
     font-size: 2rem;
     
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .navbar a{
@@ -69,7 +80,23 @@ color: white;
     filter: brightness(0.7);   
   }
   
- 
+/* Offer  */
+
+.offer{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%,  #ffdde1 100%);   
+    margin-bottom: 5vh;
+    min-height: 30vh;
+
+}
+
+.offerTitle{
+    padding-top: 2.6vh;
+    padding-bottom: 2.6vh;
+    text-align: center;
+    font-size: 4rem;
+}
+
 
 
 /* About */
