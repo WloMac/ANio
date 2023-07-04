@@ -4,26 +4,60 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import CardImg from "../images/about.jpg"
-import CardImg2 from "../images/about.jpg"
-import CardImg3 from "../images/about.jpg"
-import CardImg4 from "../images/about.jpg"
+
 
 export default function Offer() {
+  const productList = [
+    {
+      id: 1,
+      title: 'Torty musowe',
+      description: 'Opis',
+      img: require ('../images/tortMaliny.jpg')
+    },
+    {
+      id: 2,
+      title: 'Torty biszkoptowe',
+      description: 'Opis',
+      img: require ('../images/trotyStol.jpeg')
+    },
+    {
+      id: 3,
+      title: 'Bufet słodki',
+      description: 'Opis',
+      img: require ('../images/slodkiStol.jpeg')
+    },
+    {
+      id: 4,
+      title: 'Ciasta',
+      description: 'Opis',
+      img: require ('../images/pralinyOwoce.jpg')
+    },
+    {
+      id: 5,
+      title: 'Praliny',
+      description: 'Opis',
+      img: require ('../images/pralinyNiebieskie.jpg')
+    },
+    {
+      id: 6,
+      title: 'Czekolady',
+      description: 'Opis',
+      img: require ('../images/lody.jpg')
+    }
+  ]
+  
   return (
     <section className="offer">
         <h1 className="offerTitle"> Oferta </h1>
     <Row xs={1} md={2} className="g-4">
-    {Array.from({ length: 6 }).map((_, idx) => (
-      <Col key={idx}>
+    {productList.map((list) => (
+      <Col key={list.id}>
         <Card>
-          <Card.Img variant="top" src={CardImg} />
+          <Card.Img variant="top" src={list.img} />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>{list.title}</Card.Title>
             <Card.Text>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              {list.description}
             </Card.Text>
           </Card.Body>
         </Card>

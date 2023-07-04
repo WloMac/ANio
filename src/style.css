@@ -87,7 +87,9 @@ color: white;
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%,  #ffdde1 100%);   
     margin-bottom: 5vh;
     min-height: 30vh;
-
+    padding-left: 15vh;
+    padding-right: 15vh;
+  
 }
 
 .offerTitle{
@@ -97,6 +99,18 @@ color: white;
     font-size: 4rem;
 }
 
+.card-img-top {
+    width: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+.card:hover{
+    box-shadow: 3px 5px black;
+    zoom: 1.02;
+    transition: 0.5s;
+
+}
 
 
 /* About */
