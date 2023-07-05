@@ -52,14 +52,14 @@ export default function Offer() {
     <Row xs={1} md={2} className="g-4">
     {productList.map((list) => (
       <Col key={list.id}>
-        <Card>
-          <Card.Img variant="top" src={list.img} />
-          <Card.Body>
+        <Card className="bg-dark text-white">
+          <Card.Img variant="top" src={list.img} Alt={list.title} />
+          <Card.ImgOverlay>
             <Card.Title>{list.title}</Card.Title>
             <Card.Text>
               {list.description}
             </Card.Text>
-          </Card.Body>
+          </Card.ImgOverlay>
         </Card>
       </Col>
     ))}
