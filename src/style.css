@@ -119,12 +119,9 @@ color: white;
     width: 100%;
     max-height: 30vh;   
     object-fit: cover;
+    /* filter: brightness(0.65); */
 }
-.card-img-top {
-    filter: brightness(0.7);
 
-
-}
 .card:hover{
     -webkit-box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);
     -moz-box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);
@@ -133,6 +130,14 @@ color: white;
     transition: 0.5s;
 
 }
+
+.h5 { 
+    font-size: 4.25rem !important;
+    background: #000000c5;
+    text-align: center;
+    
+}
+
 
 
 /* About */

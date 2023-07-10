@@ -56,9 +56,9 @@ export default function Offer() {
           <Card.Img variant="top" src={list.img} Alt={list.title} />
           <Card.ImgOverlay>
             <Card.Title>{list.title}</Card.Title>
-            <Card.Text>
+            {/* <Card.Text>
               {list.description}
-            </Card.Text>
+            </Card.Text> */}
           </Card.ImgOverlay>
         </Card>
       </Col>
