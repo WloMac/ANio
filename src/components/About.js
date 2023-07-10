@@ -1,17 +1,19 @@
 import React from "react";
 import "../style.css";
 import aboutImg from "../images/about.jpg"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export default function About() {
   return (
+      
     <section className="about">
-        <h1 className="aboutTitle"> O nas </h1>
-      <hr></hr>
-        <div className="aboutRow">
-        
-        <div className="aboutContent">
-
-        <p>
+      <Container>
+      <Row>
+        <Col>   
+        <h1 className="aboutTitle"> O NAS </h1>
+       <p>
       W ANio nieustannie dążymy do tworzenia niezapomnianych doznań smakowych. Jesteśmy pasjonatami w dziedzinie
       produkcji tortów, pralin i czekolady, dbając o najdrobniejsze detale, aby
       zadowolić podniebienia naszych klientów. 
@@ -34,14 +36,17 @@ export default function About() {
       wyrobów cukierniczych. Dołącz do naszej podróży kulinarnej i pozwól nam
       stworzyć dla Ciebie coś wyjątkowego.
       </p>
-
-      </div>
+        
+        
+        
+        </Col>
+        <Col>
+        <img src={aboutImg} className="--aboutImg" alt="About Image"></img>
+        </Col>
+      </Row>
       
-      <div className="aboutImage">
-      <img src={aboutImg} className="--aboutImg" alt="About Image"></img>
-      </div>
-
-      </div>
+    </Container>  
+    
     </section>
   );
 }
