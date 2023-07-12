@@ -48,7 +48,7 @@ export default function Offer() {
   
   return (
     <section className="offer">
-        <h1 className="offerTitle"> Oferta </h1>
+        <h1 className="offerTitle"> OFERTA </h1>
     <Row xs={1} md={2} className="g-4">
     {productList.map((list) => (
       <Col key={list.id}>
