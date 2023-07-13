@@ -204,6 +204,30 @@ width: 100%;
     
 }
 
+.rel{
+    margin-top: 3rem;
+    margin-bottom: 5vh;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+    min-height: 30vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    padding-bottom: 10vh;
+}
+
+.relTitle{
+    padding-top: 2.6vh;
+    padding-bottom: 2.6vh;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.galleryItem{
+   max-width: 75%;
+   object-fit: cover;
+ 
+}
+
 
 
 

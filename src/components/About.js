@@ -10,7 +10,7 @@ export default function About() {
     <section className="about">
       <Container fluid="true">
         <Row>
-          <Col>
+          <Col xs={12} md={6}>
             <h1 className="aboutTitle"> O NAS </h1>
             <p>
               W ANio nieustannie dążymy do tworzenia niezapomnianych doznań
@@ -39,7 +39,7 @@ export default function About() {
               kulinarnej i pozwól nam stworzyć dla Ciebie coś wyjątkowego.
             </p>
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
             <img src={aboutImg} className="--aboutImg" alt="About Image"></img>
           </Col>
         </Row>
