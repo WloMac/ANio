@@ -12,29 +12,31 @@ import Rel6 from "../images/Rel_6.jpg";
 export default function Rel() {
   return (
     <section className="rel">
-      <Container fluid="true">
-        <Row>
+      <Container className="relContainer" fluid="true">
+        <Row >
           <Col>
             <h1 className="relTitle"> Realizacje </h1>
           </Col>
         </Row>
         <Row xs={1} md={3}>
-          <Col>
+          <Col className="mt-4">
             <img className="galleryItem" src={Rel1} alt="ANio Chocolate" />
           </Col>
-          <Col>
+          <Col className="mt-4">
             <img className="galleryItem" src={Rel2} alt="ANio Chocolate" />
           </Col>
-          <Col>
+          <Col className="mt-4">
             <img className="galleryItem" src={Rel3} alt="ANio Chocolate" />
           </Col>
-          <Col>
+          </Row>
+          <Row className="mt-4" xs={1} md={3}>
+          <Col className="mt-4">
             <img className="galleryItem" src={Rel4} alt="ANio Chocolate" />
           </Col>
-          <Col>
+          <Col className="mt-4">
             <img className="galleryItem" src={Rel5} alt="ANio Chocolate" />
           </Col>
-          <Col>
+          <Col className="mt-4">
             <img className="galleryItem" src={Rel6} alt="ANio Chocolate" />
           </Col>
         </Row>

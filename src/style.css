@@ -205,6 +205,8 @@ width: 100%;
 }
 
 .rel{
+    /* background-image: url("./images/componentBG.png");
+    background-size: cover; */
     margin-top: 3rem;
     margin-bottom: 5vh;
     margin-left: 1.5vh;
@@ -223,9 +225,12 @@ width: 100%;
 }
 
 .galleryItem{
-   max-width: 75%;
-   object-fit: cover;
- 
+   width: 100%;
+   height: 100%;   
+   padding: 3%;
+   object-fit: fill;
+   border: 5px solid;
+   
 }
 
 
