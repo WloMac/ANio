@@ -2,13 +2,13 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+
 import "../style.css";
 
 function NavigationBar() {
   return (
     <Navbar className="navbar" expand="lg" sticky="top">
-      {/* <Container className='container'> */}
+      <Container className='container'>
       <Navbar.Brand href="#home">
         <h1 className="heroHeading anioFont"> ANio</h1>
       </Navbar.Brand>
@@ -20,7 +20,7 @@ function NavigationBar() {
           <Nav.Link href="#">Kontakt</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      {/* </Container> */}
+      </Container>
     </Navbar>
   );
 }
