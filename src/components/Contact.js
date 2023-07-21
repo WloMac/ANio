@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser';
 
 
 
+
 export default function Cantact(){
 
     const form = useRef();
@@ -33,11 +34,11 @@ export default function Cantact(){
                 <Col>
                     <form className='formContainer' ref={form} onSubmit={sendEmail}>
                         <label>Imię i nazwisko</label>
-                        <input type="text" name="user_name" />
+                        <input type="text" name="user_name" placeholder="Jan Kowalski" />
                         <label>E-mail</label>
-                        <input type="email" name="user_email" />
-                        <label>Twoja wiadomość</label>
-                        <textarea name="message" />
+                        <input type="email" name="user_email" placeholder="Email@serwis.pl" />
+                        <label>Twoja wiadomość:</label>
+                        <textarea className='contactTextarea' name="message" placeholder="Zacznij pisać..." />
                         <input type="submit" value="Wyślij" />
                     </form>
                 </Col>
