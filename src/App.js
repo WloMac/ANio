@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Offer from "./components/Offer";
 import Rel from "./components/Rel";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Offer />
       <About />
       <Rel />
+      <Contact />
       <Footer />
     </>
   );
