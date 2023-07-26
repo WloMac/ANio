@@ -4,6 +4,9 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Accordion from 'react-bootstrap/Accordion';
+import { useAccordionButton } from 'react-bootstrap/AccordionButton';
+
 
 export default function Offer() {
   const productList = [
@@ -51,18 +54,37 @@ export default function Offer() {
       <Row xs={1} className="g-4">
         {productList.map((list) => (
           <Col key={list.id}>
-            <Card className="bg-dark text-white">
-              <Card.Img variant="top" src={list.img} Alt={list.title} />
-              <Card.ImgOverlay>
-                <Card.Title>{list.title}</Card.Title>
-                {/* <Card.Text>
-              {list.description}
-            </Card.Text> */}
-              </Card.ImgOverlay>
-            </Card>
-          </Col>
-        ))}
+      <Accordion defaultActiveKey="0">
+      <Card>
+        <Card.Header>
+          <CustomToggle eventKey={list.id}><h3>{list.title}</h3><img className ='offerImg' src={list.img}/></CustomToggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey={list.id}>
+          <Card.Body>{list.description}</Card.Body>
+        </Accordion.Collapse>
+      </Card>      
+    </Accordion>
+  
+      </Col>
+       ))}
       </Row>
+      
     </section>
+  );
+}
+
+function CustomToggle({ children, eventKey }) {
+  const decoratedOnClick = useAccordionButton(eventKey, () =>
+    console.log('Click'),
+  );
+
+  return (
+    <button
+      className='offerBtn'
+      type="button"
+      onClick={decoratedOnClick}
+    >
+      {children}
+    </button>
   );
 }
