@@ -11,7 +11,7 @@ import Rel6 from "../images/Rel_6.jpg";
 
 export default function Rel() {
   return (
-    <section className="rel">
+    <section className="rel" id='rel'>
       <Container className="relContainer" fluid="true">
         <Row >
           <Col>

@@ -29,7 +29,7 @@ export default function Cantact(){
 
     };
     return(
-    <section className="contact">
+    <section className="contact" id='contact'>
         <Container>
             <Row>
                 <Col>

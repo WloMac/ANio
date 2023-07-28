@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id='about'>
       <Container fluid="true">
         <Row>
           <Col xs={12} md={6}>

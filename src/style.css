@@ -30,28 +30,16 @@ background-color: var(--lavender-blush) ;
     font-size: 2rem;
     
 }
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+
 
 .navbar a{
     color: white;
 }
 
+.navbarContainer{
+    margin-left:0!important;
 
-/* NAVBAR */
-/* .container{
-    position: relative;
-    
-} */
+}
 
 /* --------------- Hero Component ---------------- */
 .heroSection{
