@@ -1,5 +1,6 @@
 import React from "react";
 import "../style.css";
+import { Button } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import Hero1 from "../images/Hero.jpg";
 import Hero2 from "../images/Hero2.jpg";
@@ -12,10 +13,11 @@ export default function Hero() {
         <Carousel>
           <Carousel.Item interval={5000}>
             <img className="d-block w-100" src={Hero1} alt="ANio Chocolate" />
-            <Carousel.Caption className="top-0 mt-4">
+            <Carousel.Caption className="mx-auto">
               <div className="slideContent">
                 <h1 className="heroH1 anioFont">ANio</h1>
                 <p className="heroP">Pracownia czekolady</p>
+                <Button className="heroBtn" variant="outline-light">ZAPRASZAMY</Button>{' '}
               </div>
             </Carousel.Caption>
           </Carousel.Item>

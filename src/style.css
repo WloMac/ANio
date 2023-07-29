@@ -1,30 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-*{
-    font-family: 'Poppins', sans-serif;
-    /* color: black; */
-}
+
 :root{
-background-color: var(--lavender-blush) ;
+    /* Color-scheme */
 --african-violet: #9c89b8;
 --lavender-pink: #f0a6caff;
 --pink-lavender: #efc3e6ff;
 --lavender-blush: #f0e6efff;
 --periwinkle: #b8beddff;
+--candy-pink: #ee9ca7;
+--light-candy:  #ffdde1;
+background-color: var(--lavender-blush) ;
+
+/* FONTS */
+--fs-Anio: 'Montserrat Alternates', sans-serif;
+--fs-main: 'Poppins', sans-serif;
 
 }
+*{
+    font-family: var(--fs-main);
 
-.anioFont{
-    font-family:'Montserrat Alternates';
+    
 }
 
 
 .navbar{
-    background: #ee9ca7;  /*fallback for old browsers */    
-    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left,  #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: var(--candy-pink);  /*fallback for old browsers */    
+    background: -webkit-linear-gradient(to right, var(--light-candy), var(--candy-pink));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,  var(--light-candy), var(--candy-pink)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Montserrat Alternates', sans-serif;
     color: white;
     font-size: 2rem;
@@ -45,18 +50,29 @@ background-color: var(--lavender-blush) ;
 .heroSection{
 color: white;
 }
+
+.heroHeading{
+    font-family: var(--fs-Anio);
+}
+
 .slideContent{
-    margin-top: 20%;
-    backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.1); /* Adjust the color and opacity as needed */
+    /* backdrop-filter: blur(5px); */
+    background-color: rgba(0, 0, 0, 0.25);
     border-radius: 25px 25px;
 }
 .heroH1{
-
+    font-family: var(--fs-Anio);
     font-size: 16rem;
+    font-weight: bold;
 }
 .heroP{
-    font-size: 8rem;
+    font-size: 4rem;
+}
+
+.heroBtn{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
 }
 /* --------------- Hero Carousel ---------------- */
 
@@ -72,13 +88,17 @@ color: white;
     -webkit-border-radius: 0px 0px 30px 30px; */
 
   }
+
+  .carousel-caption {
+    top: 15%;
+  }
   
 /* --------------- Offer Component ---------------- */
 
 .offer{
    
     /* background: #ffdde1; */
-    border: #ffdde1 10px solid;
+    border: var(--light-candy) 10px solid;
     /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%,  #ffdde1 100%);    */
     margin-top: 3rem;
     margin-bottom: 5vh;
@@ -217,7 +237,7 @@ width: 100%;
     padding-left: 15vh;
     padding-right: 15vh;
     padding-bottom: 10vh;
-    border: #ffdde1 10px solid;
+    border: var(--light-candy) 10px solid;
 }
 
 .relTitle{
@@ -248,7 +268,7 @@ width: 100%;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 3rem;
-    border: #ffdde1 10px solid;
+    border: var(--light-candy) 10px solid;
     background-color: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
 }
@@ -269,7 +289,7 @@ input[type='text'], [type = 'email']{
     height: 4vh;
     max-width: 70%;
     margin-bottom: 2rem;
-    border-color: rgba(255, 221, 225);
+    border-color: var(--light-candy);
 }
 textarea{
     font-size: 2vh !important;
@@ -285,7 +305,7 @@ input[type='submit']{
     height: 50%;    
     background-color: white;
     text-transform: uppercase;
-    border-color: rgba(255, 221, 225);
+    border-color: var(--light-candy);
     border-radius: 24px;
     margin-bottom: 4rem;
 }
@@ -300,13 +320,14 @@ input[type='submit']:hover{
     margin-left: 1rem;
     margin-right: 1rem;
     padding-left: 20px;
-    border: #ffdde1 10px solid;
+    border: var(--light-candy) 10px solid;
     background-color: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
     
 }
 
 .h1ContactDetails{
+    font-family: var(--fs-Anio);
     font-size: 8rem;
     color: white;
 }
@@ -325,7 +346,7 @@ input[type='submit']:hover{
     display: flex;
     justify-content: space-around;
     font-size: 8rem;
-    color:rgba(255, 221, 225);
+    color:var(--light-candy);
 }
 
 .fa-square-facebook:hover{
@@ -343,12 +364,9 @@ input[type='submit']:hover{
 
 /* --------------- Footer Component ---------------- */
 footer{
-    background: #ee9ca7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -webkit-border-radius: 30px 30px 0px 0px; */
+    background: var(--candy-pink);  /*fallback for old browsers */    
+    background: -webkit-linear-gradient(to right, var(--light-candy), var(--candy-pink));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,  var(--light-candy), var(--candy-pink)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
