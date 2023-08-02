@@ -13,7 +13,7 @@ export default function Offer() {
     {
       id: 1,
       title: "Torty musowe",
-      description: "Opis",
+      description: ["Tort mleczna czekolada / orzech laskowy / konfitura z czarnej porzeczki", "Tort kokos malibu / frużelina z mango i cytryną", "Tort z białą czekoladą / malinami", "Tort cappucino z amaretto / jagodami"],
       img: require("../images/tortMaliny.jpg"),
     },
     {
@@ -25,13 +25,13 @@ export default function Offer() {
     {
       id: 3,
       title: "Bufet słodki",
-      description: "Opis",
+      description: ["Sernik z białą czekoladą / prażynka", "Lody oreo zamknięte w mlecznej czekoladzie", "Mini tarta z kremem chantilly / owoce sezonowe", "Mini beza Pavlova / krem namelaka / frużelina mango / cytryna", "Monoporcja biała czekolada / malina / biszkop klasyczny / prażynka", "Monoporcja ciemna czekolda / wiśnia / biszkopt czekoladowy / prażynka", "Monoporcja mleczna czekolada / orzech laskowy / czarna pożeczka", "Monoporcja słony karmel / popcorn / malina"],        
       img: require("../images/slodkiStol.jpeg"),
     },
     {
       id: 4,
       title: "Ciasta",
-      description: "Opis",
+      description: ["Bento Cake", "Sernik / Brownie z wiśniami", "Pavlova"],
       img: require("../images/pralinyOwoce.jpg"),
     },
     {
