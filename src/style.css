@@ -227,8 +227,8 @@ object-fit: contain;
     margin-left: 1.5vh;
     margin-right: 1.5vh;
     min-height: 30vh;
-    padding-left: 15vh;
-    padding-right: 15vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
     padding-bottom: 10vh;
     border: var(--light-candy) 10px solid;
 }
