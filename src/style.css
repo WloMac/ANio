@@ -23,10 +23,7 @@ background-color: var(--lavender-blush) ;
 }
 
 @media (max-width: 750px) {
-    .offer {
-        padding-left: 3rem !important;
-        padding-right: 3rem !important;
-    }
+    
 }
 
 
@@ -126,8 +123,8 @@ color: white;
     margin-left: 1.5vh;
     margin-right: 1.5vh;
     min-height: 30vh;
-    padding-left: 15vh;
-    padding-right: 15vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
     padding-bottom: 10vh;
     /* border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
@@ -157,7 +154,7 @@ color: white;
     background-color: white !important;
     
 }
-.card:hover{
+.offerImg:hover{
     -webkit-box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);
     -moz-box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);
     box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);

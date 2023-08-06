@@ -55,14 +55,15 @@ export default function Offer() {
         {productList.map((list) => (
           <Col key={list.id}>
       <Accordion defaultActiveKey="0">
-      <Card>
-        <Card.Header>
+      
           <CustomToggle eventKey={list.id}><h3>{list.title}</h3><img className ='offerImg' src={list.img}/></CustomToggle>
-        </Card.Header>
+        
         <Accordion.Collapse eventKey={list.id}>
+          
           <Card.Body>{list.description}</Card.Body>
+        
         </Accordion.Collapse>
-      </Card>      
+           
     </Accordion>
   
       </Col>
