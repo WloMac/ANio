@@ -12,6 +12,7 @@ export default function About() {
         <Row>
           <Col xs={12} md={6}>
             <h1 className="aboutTitle"> O NAS </h1>
+            <div className="aboutContent">
             <p>
               W ANio nieustannie dążymy do tworzenia niezapomnianych doznań
               smakowych. Jesteśmy pasjonatami w dziedzinie produkcji tortów,
@@ -38,6 +39,7 @@ export default function About() {
               i pięknem naszych wyrobów cukierniczych. Dołącz do naszej podróży
               kulinarnej i pozwól nam stworzyć dla Ciebie coś wyjątkowego.
             </p>
+            </div>
           </Col>
           <Col xs={12} md={6}>
             <img src={aboutImg} className="--aboutImg" alt="About Image"></img>

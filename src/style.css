@@ -114,11 +114,9 @@ color: white;
 }
 /* --------------- Offer Component ---------------- */
 
-.offer{
+.offer{   
    
-    /* background: #ffdde1; */
     border: var(--light-candy) 10px solid;
-    /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%,  #ffdde1 100%);    */
     margin-top: 3rem;
     margin-bottom: 5vh;
     margin-left: 1.5vh;
@@ -180,20 +178,11 @@ color: white;
     margin-bottom: 10vh;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
- 
+    
        
 }
 
-.aboutRow{
-    width: 75%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px 30px;
 
-}
 .aboutTitle{
     font-family: 'Pacifico', cursive;
     font-weight: 600;
@@ -203,12 +192,6 @@ color: white;
     font-size: var(--fs--xl);
 }
 
-.aboutContent{
-    /* padding: 3rem; */
-    text-align: justify;
-    object-fit: cover;
-    
-}
 
 .--aboutImg{
 width: 100%;
@@ -225,13 +208,14 @@ object-fit: contain;
     object-fit: cover;  
 }
 
-
-
-.aboutRow .aboutContent p{
-    font-size: var(--fs--m);
-    
-    
+.aboutContent{
+   font-size: var(--fs--m);
+   text-align: justify;
+   padding-left: 3vw;
 }
+
+
+
 
 /* --------------- Rel Component ---------------- */
 
