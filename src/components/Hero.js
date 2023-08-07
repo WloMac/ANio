@@ -17,7 +17,7 @@ export default function Hero() {
               <div className="slideContent">
                 <h1 className="heroH1 anioFont">ANio</h1>
                 <p className="heroP">Pracownia czekolady</p>
-                <Button className="heroBtn" variant="outline-light">ZAPRASZAMY</Button>{' '}
+                <Button className="heroBtn" variant="outline-light" href="#offer">ZAPRASZAMY</Button>{' '}
               </div>
             </Carousel.Caption>
           </Carousel.Item>

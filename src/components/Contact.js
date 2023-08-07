@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import emailjs from '@emailjs/browser';
+import { Button } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faUser, faMessage, faAt } from '@fortawesome/free-solid-svg-icons';
 import { faSquareFacebook,faSquareInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
@@ -45,7 +46,8 @@ export default function Cantact(){
                         <input type="email" name="user_email" placeholder="Email@serwis.pl" />
                         <label><FontAwesomeIcon icon={faMessage}/> Twoja wiadomość:</label>
                         <textarea className='contactTextarea' name="message" placeholder="Zacznij pisać..." />
-                        <input type="submit" value="Wyślij" />
+                        <Button variant="outline-light" as="input" type="submit" value="Wyślij" />{' '}
+                       
                     </form>
                 </Col>
                 <Col className='contactDetails'>
