@@ -51,12 +51,12 @@ export default function Offer() {
   return (
     <section className="offer" id='offer'>
       <h1 className="sectionTitle"> OFERTA </h1>
-      <Row xs={1} className="g-4">
+      {/* <Row xs={1} className="g-4"> */}
         {productList.map((list) => (
           <Col key={list.id}>
       <Accordion defaultActiveKey="0">
       
-          <CustomToggle eventKey={list.id}><h3>{list.title}</h3><img className ='offerImg' src={list.img}/></CustomToggle>
+          <CustomToggle eventKey={list.id}><div className="offContainer"><h3 className="offHeader">{list.title}</h3><img className ='offerImg' src={list.img}/></div></CustomToggle>
         
         <Accordion.Collapse eventKey={list.id}>
           
@@ -68,7 +68,7 @@ export default function Offer() {
   
       </Col>
        ))}
-      </Row>
+      {/* </Row> */}
       
     </section>
   );

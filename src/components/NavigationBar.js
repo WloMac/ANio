@@ -10,7 +10,7 @@ function NavigationBar() {
     <Navbar className="navbar" expand="lg" sticky="top">
       <Container className='navbarContainer'>
       <Navbar.Brand href="#home">
-        <h1 className="heroHeading anioFont"> ANio</h1>
+        <h1 className="heroHeading"> ANio</h1>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
