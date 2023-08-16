@@ -19,7 +19,7 @@ export default function Offer() {
     {
       id: 2,
       title: "Torty biszkoptowe",
-      description: "Opis",
+      description: ["Opis"],
       img: require("../images/trotyStol.jpeg"),
     },
     {
@@ -37,13 +37,13 @@ export default function Offer() {
     {
       id: 5,
       title: "Praliny",
-      description: "Opis",
+      description: ["Opis"],
       img: require("../images/pralinyNiebieskie.jpg"),
     },
     {
       id: 6,
       title: "Czekolady",
-      description: "Opis",
+      description: ["Opis"],
       img: require("../images/lody.jpg"),
     },
   ];
@@ -60,7 +60,7 @@ export default function Offer() {
         
         <Accordion.Collapse eventKey={list.id}>
           
-          <Card.Body>{list.description}</Card.Body>
+          <Card.Body><ul>{list.description.map((detail, index)=>(<li key={index}>{detail}</li>))}</ul></Card.Body>
         
         </Accordion.Collapse>
            
