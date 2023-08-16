@@ -183,6 +183,15 @@ color: white;
     z-index: 2;
 }
 
+.offList{
+    list-style: none;
+    text-align: center;
+}
+.offList li{
+    font-weight: 300;
+    margin: 1vh 0;
+}
+
 .h5 { 
     font-size: 4.25rem !important;
     background: #000000c5;

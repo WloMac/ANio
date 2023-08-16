@@ -13,7 +13,7 @@ export default function Offer() {
     {
       id: 1,
       title: "Torty musowe",
-      description: ["Tort mleczna czekolada / orzech laskowy / konfitura z czarnej porzeczki", "Tort kokos malibu / frużelina z mango i cytryną", "Tort z białą czekoladą / malinami", "Tort cappucino z amaretto / jagodami"],
+      description: ["Tort mleczna czekolada lub orzech laskowy lub konfitura z czarnej porzeczki", "Tort kokos-malibu lub frużelina z mango i cytryną", "Tort z białą czekoladą lub malinami", "Tort cappucino z amaretto lub jagodami"],
       img: require("../images/tortMaliny.jpg"),
     },
     {
@@ -25,13 +25,13 @@ export default function Offer() {
     {
       id: 3,
       title: "Bufet słodki",
-      description: ["Sernik z białą czekoladą / prażynka", "Lody oreo zamknięte w mlecznej czekoladzie", "Mini tarta z kremem chantilly / owoce sezonowe", "Mini beza Pavlova / krem namelaka / frużelina mango / cytryna", "Monoporcja biała czekolada / malina / biszkop klasyczny / prażynka", "Monoporcja ciemna czekolda / wiśnia / biszkopt czekoladowy / prażynka", "Monoporcja mleczna czekolada / orzech laskowy / czarna pożeczka", "Monoporcja słony karmel / popcorn / malina"],        
+      description: ["Sernik z białą czekoladą (lub prażynka)", "Lody oreo zamknięte w mlecznej czekoladzie", "Mini tarta z kremem chantilly lub owoce sezonowe", "Mini beza Pavlova lub krem namelaka lub frużelina mango lub cytryna", "Monoporcja biała czekolada lub malina (na bazie biszkoptu klasycznego lub prażynka )", "Monoporcja ciemna czekolda lub wiśnia (na bazie biszkoptu czekoladowego lub prażynka)", "Monoporcja mleczna czekolada lub orzech laskowy lub czarna pożeczka", "Monoporcja słony karmel lub popcorn lub malina"],        
       img: require("../images/slodkiStol.jpeg"),
     },
     {
       id: 4,
       title: "Ciasta",
-      description: ["Bento Cake", "Sernik / Brownie z wiśniami", "Pavlova"],
+      description: ["Bento Cake", "Sernik lub Brownie z wiśniami", "Pavlova"],
       img: require("../images/pralinyOwoce.jpg"),
     },
     {
@@ -60,12 +60,11 @@ export default function Offer() {
         
         <Accordion.Collapse eventKey={list.id}>
           
-          <Card.Body><ul>{list.description.map((detail, index)=>(<li key={index}>{detail}</li>))}</ul></Card.Body>
+          <Card.Body><ul className='offList'>{list.description.map((detail, index)=>(<li key={index}>{detail}</li>))}</ul></Card.Body>
         
         </Accordion.Collapse>
            
-    </Accordion>
-  
+      </Accordion>  
       </Col>
        ))}
       {/* </Row> */}

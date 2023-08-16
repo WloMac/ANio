@@ -50,6 +50,7 @@ export default function Cantact(){
                        
                     </form>
                 </Col>
+                
                 <Col className='contactDetails'>
                 <h1 className='h1ContactDetails anioFont '>ANio</h1>
                 <h2 className='h2ContactDetails'>Pracowania Czekolady</h2>
