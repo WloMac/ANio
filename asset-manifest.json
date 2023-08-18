@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ANio/static/css/main.5b75f818.css",
+    "main.css": "/ANio/static/css/main.ceb9e32d.css",
     "main.js": "/ANio/static/js/main.a6c2be23.js",
     "static/media/lody.jpg": "/ANio/static/media/lody.c18d55c9034e234c72c0.jpg",
     "static/media/pralinyNiebieskie.jpg": "/ANio/static/media/pralinyNiebieskie.0558cf4f913ea532626d.jpg",
@@ -20,11 +20,11 @@
     "static/media/Rel_3.jpg": "/ANio/static/media/Rel_3.4fed9b0527698264683a.jpg",
     "static/media/Rel_4.jpg": "/ANio/static/media/Rel_4.bd65d2ea47a2ec366c7e.jpg",
     "index.html": "/ANio/index.html",
-    "main.5b75f818.css.map": "/ANio/static/css/main.5b75f818.css.map",
+    "main.ceb9e32d.css.map": "/ANio/static/css/main.ceb9e32d.css.map",
     "main.a6c2be23.js.map": "/ANio/static/js/main.a6c2be23.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b75f818.css",
+    "static/css/main.ceb9e32d.css",
     "static/js/main.a6c2be23.js"
   ]
 }
