@@ -4,7 +4,7 @@
 
 
 :root{
-    /* Color-scheme */
+/* Color-scheme */
 --african-violet: #9c89b8;
 --lavender-pink: #f0a6caff;
 --pink-lavender: #efc3e6ff;
@@ -12,7 +12,7 @@
 --periwinkle: #b8beddff;
 --candy-pink: rgb(238, 156, 167);
 --light-candy:  #ffdde1;
-background-color: var(--lavender-blush) ;
+background-color: var(--lavender-blush);
 
 /* FONTS */
 --fst-Anio: 'Montserrat Alternates', sans-serif;
@@ -52,6 +52,9 @@ background-color: var(--lavender-blush) ;
 }
 
 .navbarContainer{
+    background: var(--candy-pink);  /*fallback for old browsers */    
+    background: -webkit-linear-gradient(to right, var(--light-candy), var(--candy-pink));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,  var(--light-candy), var(--candy-pink)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-left:0!important;
 
 }
@@ -159,8 +162,8 @@ color: white;
     -webkit-box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);
     -moz-box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);
     box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);
-    transform: scale(1.25);
-    transition: 1.5s;
+    transform: scale(1.1);
+    transition: 2s;
     cursor: pointer;
 
 }
@@ -224,7 +227,7 @@ color: white;
 
 .--aboutImg{
 width: 100%;
-max-height: 100vh;
+max-height: 1400px;
 aspect-ratio: 9/6;
 object-fit: contain;
 
