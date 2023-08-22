@@ -7,6 +7,7 @@ import { Button } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faUser, faMessage, faAt } from '@fortawesome/free-solid-svg-icons';
 import { faSquareFacebook,faSquareInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 
@@ -54,16 +55,19 @@ export default function Cantact(){
                 <Col className='contactDetails'>
                 <h1 className='h1ContactDetails anioFont '>ANio</h1>
                 <h2 className='h2ContactDetails'>Pracowania Czekolady</h2>
-                <h3 className='h3ContactDetails'>ul. __________</h3>
+                <h3 className='h3ContactDetails'>Główna 154</h3>
                 <h3 className='h3ContactDetails'>Czarnocin</h3>
                 <h3 className='h3ContactDetails'> <FontAwesomeIcon icon={faPhone}/> +48 609 824 429</h3>                
                   <div className="socialIcons">
-                    <FontAwesomeIcon icon={faSquareFacebook} /> 
-                    <FontAwesomeIcon icon={faSquareInstagram} />  
-                    <FontAwesomeIcon icon={faTiktok} /> 
+                    <a href='https://www.facebook.com/people/ANio/100028283605382/' className="linkStyle" ><FontAwesomeIcon icon={faSquareFacebook} />  </a>
+                    <a href='https://www.facebook.com/people/ANio/100028283605382/' className="linkStyle" ><FontAwesomeIcon icon={faSquareInstagram} /> </a>
+                    <a href='https://www.facebook.com/people/ANio/100028283605382/' className="linkStyle" ><FontAwesomeIcon icon={faTiktok} /> </a>
                   </div>
 
                 </Col>
+            </Row>
+            <Row>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9912.73430439774!2d19.671784870725862!3d51.60152486820099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a292f2ec50f8d%3A0xbe13f7bc1929a054!2sG%C5%82%C3%B3wna%20154%2C%2097-318%20Czarnocin%2C%20Poland!5e0!3m2!1sen!2suk!4v1692719545518!5m2!1sen!2suk" width="1600" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </Row>
         </Container>
 
