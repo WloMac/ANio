@@ -16,7 +16,7 @@ export default function App() {
       <About />
       <Rel />
       <Contact />
-      <Footer />
+      
     </>
   );
 }

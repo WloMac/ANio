@@ -5,13 +5,9 @@
 
 :root{
 /* Color-scheme */
---african-violet: #9c89b8;
---lavender-pink: #f0a6caff;
---pink-lavender: #efc3e6ff;
---lavender-blush: #f0e6efff;
---periwinkle: #b8beddff;
---candy-pink: rgb(238, 156, 167);
---light-candy:  #ffdde1;
+--primary:#88BEA1 ;  /* Green*/
+--secondary:#9CB0A4 ;  	/* Yellow*/
+--third: rgb(57, 75, 65);
 background-color: var(--lavender-blush);
 
 /* FONTS */
@@ -36,10 +32,14 @@ background-color: var(--lavender-blush);
            
 }
 
+.whiteTxt{
+    color:white;
+}
+
 .navbar{
-    background: var(--candy-pink);  /*fallback for old browsers */    
-    background: -webkit-linear-gradient(to right, var(--light-candy), var(--candy-pink));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left,  var(--light-candy), var(--candy-pink)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: var(--secondary);  /*fallback for old browsers */    
+    background: -webkit-linear-gradient(to right, var(--secondary), var(--third));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,  var(--secondary), var(--third)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: var(--fst-main);
     color: white;   
     min-height: 4rem;   
@@ -52,9 +52,6 @@ background-color: var(--lavender-blush);
 }
 
 .navbarContainer{
-    background: var(--candy-pink);  /*fallback for old browsers */    
-    background: -webkit-linear-gradient(to right, var(--light-candy), var(--candy-pink));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left,  var(--light-candy), var(--candy-pink)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-left:0!important;
 
 }
@@ -118,13 +115,12 @@ color: white;
 /* --------------- Offer Component ---------------- */
 
 .offer{   
-   
-    border-top: var(--light-candy) 10px solid;
-    border-bottom: var(--light-candy) 10px solid; ;
-    margin-top: 3rem;
+    background-color: var(--secondary);
+    /* border-top: var(--secondary) 10px solid;
+    border-bottom: var(--secondary) 10px solid;  */
+    /* margin-top: 3rem; */
     margin-bottom: 5vh;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: auto ;
     min-height: 30vh;
     /* padding-left: 1vw;
     padding-right: 1vw; */
@@ -262,7 +258,7 @@ object-fit: contain;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 10vh;
-    border: var(--light-candy) 10px solid;
+    border: var(--primary) 10px solid;
 }
 
 .relTitle{
@@ -284,17 +280,20 @@ object-fit: contain;
 
 /* --------------- Contact Component ---------------- */
 .contact{
-    background-image: linear-gradient(0deg, rgba(255, 221, 225, 0.502), rgba(255, 221, 225, 0.502)), url('./images/ContactBG.jpg') ;
+    background-image: linear-gradient(0deg, rgba(57, 75, 65, 0.500), rgba(57, 75, 65, 0.500)), url('./images/ContactBG.jpg') ;
     background-position: center;
     background-size: cover;
-    
+    padding-bottom: 5vh;      
 
+}
+.sectionTitle2{
+    color: white;
 }
 .contactForm{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 3rem;
-    border: var(--light-candy) 10px solid;
+    border: var(--primary) 10px solid;
     background-color: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
 }
@@ -314,13 +313,12 @@ input[type='text'], [type = 'email']{
     height: 4vh;
     max-width: 70%;
     margin-bottom: 2rem;
-    border-color: var(--light-candy);
+    border-color: var(--primary);
 }
 textarea{   
     font-size: 2vh !important;
     size: 10vh;
     height: 30vh;    
-    border-color: rgba(255, 221, 225);
     margin-bottom: 2rem !important;
 }
 
@@ -335,7 +333,7 @@ input[type='submit']{
     margin-left: 1rem;
     margin-right: 1rem;
     padding-left: 20px;
-    border: var(--light-candy) 10px solid;
+    border: var(--primary) 10px solid;
     background-color: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
     
@@ -365,7 +363,7 @@ input[type='submit']{
     display: flex;
     justify-content: space-around;
     font-size: 8rem;
-    color:var(--light-candy);
+    color:var(--primary);
 }
 
 .fa-square-facebook:hover{
@@ -384,8 +382,8 @@ input[type='submit']{
 /* --------------- Footer Component ---------------- */
 footer{
     background: var(--candy-pink);  /*fallback for old browsers */    
-    background: -webkit-linear-gradient(to right, var(--light-candy), var(--candy-pink));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left,  var(--light-candy), var(--candy-pink)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, var(--primary), var(--candy-pink));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,  var(--primary), var(--candy-pink)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
