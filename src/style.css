@@ -38,8 +38,8 @@ background-color: var(--lavender-blush);
 
 .navbar{
     background: var(--secondary);  /*fallback for old browsers */    
-    background: -webkit-linear-gradient(to right, var(--secondary), var(--third));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left,  var(--secondary), var(--third)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, var(--primary), var(--third));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  var(--primary), var(--third)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: var(--fst-main);
     color: white;   
     min-height: 4rem;   
@@ -51,10 +51,10 @@ background-color: var(--lavender-blush);
     color: white;
 }
 
-.navbarContainer{
+/* .navbarContainer{
     margin-left:0!important;
-
-}
+    background-color: aqua;
+} */
 
 /* --------------- Hero Component ---------------- */
 .heroSection{
