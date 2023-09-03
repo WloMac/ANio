@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ANio/static/css/main.1553408b.css",
-    "main.js": "/ANio/static/js/main.7b4213b3.js",
+    "main.css": "/ANio/static/css/main.3ab3046f.css",
+    "main.js": "/ANio/static/js/main.62dcac37.js",
     "static/media/lody.jpg": "/ANio/static/media/lody.c18d55c9034e234c72c0.jpg",
     "static/media/pralinyNiebieskie.jpg": "/ANio/static/media/pralinyNiebieskie.0558cf4f913ea532626d.jpg",
     "static/media/Hero3.jpg": "/ANio/static/media/Hero3.07529f8bb2856e6008d8.jpg",
@@ -20,11 +20,11 @@
     "static/media/Rel_3.jpg": "/ANio/static/media/Rel_3.4fed9b0527698264683a.jpg",
     "static/media/Rel_4.jpg": "/ANio/static/media/Rel_4.bd65d2ea47a2ec366c7e.jpg",
     "index.html": "/ANio/index.html",
-    "main.1553408b.css.map": "/ANio/static/css/main.1553408b.css.map",
-    "main.7b4213b3.js.map": "/ANio/static/js/main.7b4213b3.js.map"
+    "main.3ab3046f.css.map": "/ANio/static/css/main.3ab3046f.css.map",
+    "main.62dcac37.js.map": "/ANio/static/js/main.62dcac37.js.map"
   },
   "entrypoints": [
-    "static/css/main.1553408b.css",
-    "static/js/main.7b4213b3.js"
+    "static/css/main.3ab3046f.css",
+    "static/js/main.62dcac37.js"
   ]
 }
