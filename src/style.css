@@ -45,6 +45,13 @@ background-color: var(--lavender-blush);
     min-height: 4rem;   
     max-height: 5vh;
 }
+.navbar-collapsed-bg {
+    background: var(--secondary);  /*fallback for old browsers */    
+    background: -webkit-linear-gradient(to right, var(--primary), var(--third));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  var(--primary), var(--third)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: var(--fst-main);
+    color: white;   
+}
 
 
 .navbar a{
@@ -53,7 +60,7 @@ background-color: var(--lavender-blush);
 
 /* .navbarContainer{
     margin-left:0!important;
-    background-color: aqua;
+    
 } */
 
 /* --------------- Hero Component ---------------- */

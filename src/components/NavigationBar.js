@@ -6,15 +6,16 @@ import Navbar from "react-bootstrap/Navbar";
 import "../style.css";
 
 function NavigationBar() {
+  
+
   return (
-    <Navbar className="navbar" expand="lg" sticky="top">
-      
+    <Navbar className="navbar" expand="lg" sticky="top">      
       <Navbar.Brand href="#home">
         <h1 className="heroHeading"> ANio</h1>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
+      <Navbar.Collapse  id="basic-navbar-nav">
+        <Nav className="me-auto navbar">
           <Nav.Link href="#offer">Oferta</Nav.Link>
           <Nav.Link href="#about">O nas</Nav.Link>
           <Nav.Link href="#rel">Realizacje</Nav.Link>
