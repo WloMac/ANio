@@ -8,22 +8,23 @@ import "../style.css";
 function NavigationBar() {
   
 
-  return (
-    <Navbar className="navbar" expand="lg" sticky="top">      
+  return (  
+   
+    <Navbar className="navbar" expand="lg" sticky="top">           
       <Navbar.Brand href="#home">
         <h1 className="heroHeading"> ANio</h1>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse  id="basic-navbar-nav">
-        <Nav className="me-auto navbar">
+      <Navbar.Collapse  id="navbar basic-navbar-nav">
+        <Nav className="me-auto">
           <Nav.Link href="#offer">Oferta</Nav.Link>
           <Nav.Link href="#about">O nas</Nav.Link>
           <Nav.Link href="#rel">Realizacje</Nav.Link>
           <Nav.Link href="#contact">Kontakt</Nav.Link>
         </Nav>
-      </Navbar.Collapse>
-     
-    </Navbar>
+      </Navbar.Collapse>   
+   </Navbar>
+
   );
 }
 
