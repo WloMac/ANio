@@ -77,8 +77,9 @@ color: white;
 
 .slideContent{
     /* backdrop-filter: blur(5px); */
+    margin-bottom: 10vh;
     background-color: rgba(0, 0, 0, 0.25);
-    border-radius: 25px 25px;
+    /* border-radius: 25px 25px; */
 }
 .heroH1{
     font-family: var(--fst-Anio);
@@ -111,7 +112,9 @@ color: white;
   }
 
   .carousel-caption {
-    top: 15%;
+    top: 5vh;
+    margin-bottom: 5vh;
+    
   }
   
 /*------------------- Global -----------------------*/
@@ -348,13 +351,12 @@ input[type='submit']{
 }
 
 
-.contactDetails{
-    
+.contactDetails{    
     margin-bottom: 3rem; 
     margin-left: 1rem;
     margin-right: 1rem;
-    padding-left: 20px;
-    
+    padding-left: 20px;    
+    text-align: center;
     /* border: var(--primary) 10px solid; */
     background-color: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
