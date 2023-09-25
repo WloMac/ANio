@@ -48,7 +48,7 @@ body{
     min-height: 4rem;   
     max-height: 5vh;
 }
-.navbar-collapsed-bg {
+.navbar-collapse {
     background: var(--secondary);  /*fallback for old browsers */    
     background: -webkit-linear-gradient(to right, var(--primary), var(--third));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right,  var(--primary), var(--third)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -130,6 +130,7 @@ color: white;
     margin-bottom: 5vh;
     margin-left: 5vw;
     margin-right: 5vw;
+    padding: 5vh 5vw 5vh 5vw;
     /* margin-left: 1.5vw;
     margin-right: 1.5vw; */
     margin-inline: auto ;
@@ -148,7 +149,7 @@ color: white;
 .offerImg{
     margin-top: 1vh;
     width: 100%;
-    max-height: 400px;
+    max-height: 300px;
     aspect-ratio: 16/9;
     object-fit: cover;
     outline: 10px solid rgba(255, 255, 255);
@@ -156,8 +157,9 @@ color: white;
 }
 
 .offerBtn{
+    margin-top: 3vh;
     width: 100%;
-    background-color:white;
+    background-color:var(--secondary);
     border: none;
 }
 
@@ -194,6 +196,7 @@ color: white;
 }
 
 .offList{
+    box-shadow: 3px 5px 25px -10px rgba(0,0,0,1);
     list-style: none;
     text-align: center;
 }
@@ -351,7 +354,8 @@ input[type='submit']{
     margin-left: 1rem;
     margin-right: 1rem;
     padding-left: 20px;
-    border: var(--primary) 10px solid;
+    
+    /* border: var(--primary) 10px solid; */
     background-color: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
     

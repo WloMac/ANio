@@ -39,7 +39,7 @@ export default function Cantact(){
                 </Col>
             </Row>
             <Row>
-                <Col className='contactForm'>
+                {/* <Col className='contactForm'>
                     <form className='formContainer' ref={form} onSubmit={sendEmail}>
                         <label><FontAwesomeIcon icon={faUser}/> Imię i nazwisko</label>
                         <input type="text" name="user_name" placeholder="Jan Kowalski" />
@@ -50,7 +50,7 @@ export default function Cantact(){
                         <Button variant="outline-light" as="input" type="submit" value="Wyślij" />{' '}
                        
                     </form>
-                </Col>
+                </Col> */}
                 
                 <Col className='contactDetails'>
                 <h1 className='h1ContactDetails anioFont '>ANio</h1>

@@ -8,8 +8,7 @@ import "../style.css";
 function NavigationBar() {
   
 
-  return (  
-   
+  return (     
     <Navbar className="navbar" expand="lg" sticky="top">           
       <Navbar.Brand href="#home">
         <h1 className="heroHeading"> ANio</h1>
@@ -24,7 +23,6 @@ function NavigationBar() {
         </Nav>
       </Navbar.Collapse>   
    </Navbar>
-
   );
 }
 
