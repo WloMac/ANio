@@ -15,7 +15,7 @@ export default function Rel() {
       <Container className="relContainer" fluid="true">
         <Row >
           <Col>
-            <h1 className="relTitle"> Realizacje </h1>
+            <h2 className="relTitle"> Realizacje </h2>
           </Col>
         </Row>
         <Row xs={1} md={3}>

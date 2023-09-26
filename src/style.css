@@ -20,10 +20,6 @@
 
 }
 
-@media (max-width: 768px) {
-    
-}
-
 
 *{
     font-family: var(--fst-main);
@@ -33,6 +29,7 @@
 }
 body{
     background-color: white;
+    overflow-x: hidden;
 }
 
 .whiteTxt{
@@ -46,8 +43,9 @@ body{
     font-family: var(--fst-main);
     color: white;   
     min-height: 4rem;   
-    max-height: 5vh;
+    max-height: 5vh;    
 }
+
 .navbar-collapse {
     background: var(--secondary);  /*fallback for old browsers */    
     background: -webkit-linear-gradient(to right, var(--primary), var(--third));  /* Chrome 10-25, Safari 5.1-6 */
@@ -61,10 +59,6 @@ body{
     color: white;
 }
 
-/* .navbarContainer{
-    margin-left:0!important;
-    
-} */
 
 /* --------------- Hero Component ---------------- */
 .heroSection{
@@ -76,6 +70,7 @@ color: white;
 }
 
 .slideContent{
+    max-height: fit-content;
     /* backdrop-filter: blur(5px); */
     margin-bottom: 10vh;
     background-color: rgba(0, 0, 0, 0.25);
@@ -134,14 +129,9 @@ color: white;
     margin-left: 5vw;
     margin-right: 5vw;
     padding: 5vh 5vw 5vh 5vw;
-    /* margin-left: 1.5vw;
-    margin-right: 1.5vw; */
     margin-inline: auto ;
     min-height: 30vh;
     padding-bottom: 10vh;
-    /* border-radius: 30px 30px 30px 30px;
-    -moz-border-radius: 30px 30px 30px 30px; 
-    -webkit-border-radius: 30px 30px 30px 30px;*/
     -webkit-box-shadow: 5px 10px 50px -10px rgba(0,0,0,1);
     -moz-box-shadow: 5px 10px 50px -10px rgba(0,0,0,1);
     box-shadow: 5px 10px 50px -10px rgba(0,0,0,1);
@@ -175,7 +165,7 @@ color: white;
     -moz-box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);
     box-shadow: 3px 7px 50px -10px rgba(0,0,0,1);
     transform: scale(1.1);
-    transition: 2s;
+    transition: 5s;
     cursor: pointer;
 
 }
@@ -244,7 +234,7 @@ color: white;
 
 .--aboutImg{
 width: 100%;
-max-height: 1400px;
+min-height: 100%;
 aspect-ratio: 9/6;
 object-fit: contain;
 
@@ -405,10 +395,15 @@ input[type='submit']{
 
 /* --------------- Footer Component ---------------- */
 footer{
-    background: var(--candy-pink);  /*fallback for old browsers */    
-    background: -webkit-linear-gradient(to right, var(--primary), var(--candy-pink));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left,  var(--primary), var(--candy-pink)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    font-size: x-small;
+    background-color: black;
 }
+footer a{
+    color: inherit;
+    text-decoration: none;
+}
+
 
 
 

@@ -10,8 +10,8 @@ function NavigationBar() {
 
   return (     
     <Navbar className="navbar" expand="lg" sticky="top">           
-      <Navbar.Brand href="#home">
-        <h1 className="heroHeading"> ANio</h1>
+      <Navbar.Brand href="#offer">
+        <h1 className="heroHeading">ANio</h1>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse  id="navbar basic-navbar-nav">
