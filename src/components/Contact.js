@@ -34,11 +34,10 @@ export default function Cantact(){
     <section className="contact" id='contact'>
         <Container>
             <Row>
-                <Col>
+                <Col xs={12} md={6}>
                 <h2 style={{textAlign:"center"}} className='sectionTitle whiteTxt' >Kontakt</h2>
                 </Col>
-            </Row>
-            <Row>
+            
                 {/* <Col className='contactForm'>
                     <form className='formContainer' ref={form} onSubmit={sendEmail}>
                         <label><FontAwesomeIcon icon={faUser}/> Imię i nazwisko</label>
@@ -52,7 +51,7 @@ export default function Cantact(){
                     </form>
                 </Col> */}
                 
-                <Col className='contactDetails'>
+                <Col xs={12} md={6} className='contactDetails'>
                 
                 <h2 className='h1ContactDetails anioFont '>ANio</h2>
                 <h2 className='h2ContactDetails'>Pracowania Czekolady</h2>

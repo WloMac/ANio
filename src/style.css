@@ -189,12 +189,15 @@ color: white;
 }
 
 .offList{
-    box-shadow: 3px 5px 25px -10px rgba(0,0,0,1);
+    margin: 0.5vw;
+    background-color: rgba(89, 89, 89, 0.15);
+    box-shadow: 3px 5px 5px -3px rgba(0,0,0,1);
+    font-size: var(--fs--m);
     list-style: none;
     text-align: center;
 }
 .offList li{
-    font-weight: 300;
+    font-weight: 400;
     margin: 1vh 0;
 }
 
@@ -294,6 +297,7 @@ object-fit: contain;
 
 /* --------------- Contact Component ---------------- */
 .contact{
+    margin: auto;
     background-image: linear-gradient(0deg, rgba(57, 75, 65, 0.500), rgba(57, 75, 65, 0.500)), url('./images/ContactBG.jpg') ;
     background-position: center;
     background-size: cover;
