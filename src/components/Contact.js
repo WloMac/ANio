@@ -53,7 +53,7 @@ export default function Cantact(){
                 </Col> */}
                 
                 <Col className='contactDetails'>
-                  <div>
+                
                 <h2 className='h1ContactDetails anioFont '>ANio</h2>
                 <h2 className='h2ContactDetails'>Pracowania Czekolady</h2>
                 <h3 className='h3ContactDetails'>Główna 154</h3>
@@ -64,7 +64,7 @@ export default function Cantact(){
                     <a href='https://www.facebook.com/people/ANio/100028283605382/' className="linkStyle" ><FontAwesomeIcon icon={faSquareInstagram} /> </a>
                     <a href='https://www.facebook.com/people/ANio/100028283605382/' className="linkStyle" ><FontAwesomeIcon icon={faTiktok} /> </a>
                   </div>
-                  </div>
+                
                 </Col>
             </Row>
             <Row>
