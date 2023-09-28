@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ec6f0f2a.css",
-    "main.js": "/static/js/main.a694fa20.js",
+    "main.js": "/static/js/main.722cd77c.js",
     "static/media/lody.jpg": "/static/media/lody.c18d55c9034e234c72c0.jpg",
     "static/media/pralinyNiebieskie.jpg": "/static/media/pralinyNiebieskie.0558cf4f913ea532626d.jpg",
     "static/media/Hero3.jpg": "/static/media/Hero3.07529f8bb2856e6008d8.jpg",
@@ -11,20 +11,20 @@
     "static/media/ContactBG.jpg": "/static/media/ContactBG.890dfe38addf1824d07f.jpg",
     "static/media/slodkiStol.jpeg": "/static/media/slodkiStol.55d5c183a1dcb3823034.jpeg",
     "static/media/Hero2.jpg": "/static/media/Hero2.f99031386b56c3f55eea.jpg",
-    "static/media/trotyStol.jpeg": "/static/media/trotyStol.3841a1db1c4a2498ab0e.jpeg",
     "static/media/Rel_5.jpg": "/static/media/Rel_5.7d889678d1cd894a04cb.jpg",
     "static/media/Rel_1.jpg": "/static/media/Rel_1.6db515ec28cd6d8d4a95.jpg",
     "static/media/about.jpg": "/static/media/about.8f57968296f7322b5d6f.jpg",
     "static/media/Rel_2.jpg": "/static/media/Rel_2.2d59c197763fa0b518b7.jpg",
+    "static/media/tortPietrowy.jpg": "/static/media/tortPietrowy.757566b28cc638d8517a.jpg",
     "static/media/Rel_6.jpg": "/static/media/Rel_6.31a1d558ac7919d486f8.jpg",
     "static/media/Rel_3.jpg": "/static/media/Rel_3.4fed9b0527698264683a.jpg",
     "static/media/Rel_4.jpg": "/static/media/Rel_4.bd65d2ea47a2ec366c7e.jpg",
     "index.html": "/index.html",
     "main.ec6f0f2a.css.map": "/static/css/main.ec6f0f2a.css.map",
-    "main.a694fa20.js.map": "/static/js/main.a694fa20.js.map"
+    "main.722cd77c.js.map": "/static/js/main.722cd77c.js.map"
   },
   "entrypoints": [
     "static/css/main.ec6f0f2a.css",
-    "static/js/main.a694fa20.js"
+    "static/js/main.722cd77c.js"
   ]
 }
