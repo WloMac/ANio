@@ -20,7 +20,7 @@ export default function Offer() {
       id: 2,
       title: "Torty biszkoptowe",
       description: ["Opis"],
-      img: require("../images/trotyStol.jpeg"),
+      img: require("../images/tortPietrowy.jpg"),
     },
     {
       id: 3,
