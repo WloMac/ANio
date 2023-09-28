@@ -34,7 +34,7 @@ export default function Cantact(){
     <section className="contact" id='contact'>
         <Container>
             <Row>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={12}>
                 <h2 style={{textAlign:"center"}} className='sectionTitle whiteTxt' >Kontakt</h2>
                 </Col>
             
@@ -51,7 +51,7 @@ export default function Cantact(){
                     </form>
                 </Col> */}
                 
-                <Col xs={12} md={6} className='contactDetails'>
+                <Col xs={12} md={12} className='contactDetails'>
                 
                 <h2 className='h1ContactDetails anioFont '>ANio</h2>
                 <h2 className='h2ContactDetails'>Pracowania Czekolady</h2>

@@ -123,7 +123,7 @@ color: white;
 /* --------------- Offer Component ---------------- */
 
 .offer{   
-    background: linear-gradient(to bottom,  var(--primary), var(--third));
+    background: linear-gradient(to bottom,  white, var(--primary));
     margin-top: 5vh;
     margin-bottom: 5vh;
     margin-left: 5vw;
@@ -134,9 +134,12 @@ color: white;
     padding-bottom: 10vh;
     -webkit-box-shadow: 5px 10px 50px -10px rgba(0,0,0,1);
     -moz-box-shadow: 5px 10px 50px -10px rgba(0,0,0,1);
-    box-shadow: 5px 10px 50px -10px rgba(0,0,0,1);
-   
+    box-shadow: 5px 10px 50px -10px rgba(0,0,0,1); 
   
+}
+
+#offerTitle{
+    color: var(--primary)
 }
 
 .offerImg{
@@ -152,7 +155,7 @@ color: white;
 .offerBtn{
     margin-top: 3vh;
     width: 100%;
-    background-color:var(--secondary);
+    background-color:transparent;
     border: none;
 }
 
@@ -190,13 +193,14 @@ color: white;
 
 .offList{
     margin: 0.5vw;
-    background-color: var(--secondary);
+    background-color: white;
     box-shadow: 3px 5px 5px -3px rgba(0,0,0,1);
     font-size: var(--fs--m);
     list-style: none;
     text-align: center;
 }
 .offList li{
+    color: var(--primary);
     font-weight: 400;
     margin: 1vh 0;
 }
