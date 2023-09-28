@@ -54,7 +54,7 @@ export default function Cantact(){
                 <Col xs={12} md={12} className='contactDetails'>
                 
                 <h2 className='h1ContactDetails anioFont '>ANio</h2>
-                <h2 className='h2ContactDetails'>Pracowania Czekolady</h2>
+                <h2 className='h2ContactDetails' id='greenTxt'>Pracowania Tortów Artystycznych</h2>
                 <h3 className='h3ContactDetails'>Główna 154</h3>
                 <h3 className='h3ContactDetails'>Czarnocin</h3>
                 <h3 className='h3ContactDetails'> <FontAwesomeIcon icon={faPhone}/> +48 609 824 429</h3>                

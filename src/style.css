@@ -35,6 +35,9 @@ body{
 .whiteTxt{
     color:white;
 }
+#greenTxt{
+    color: var(--primary);
+}
 
 .navbar{
     background: var(--secondary);  /*fallback for old browsers */    
@@ -126,8 +129,7 @@ color: white;
     background: linear-gradient(to bottom,  white, var(--primary));
     margin-top: 5vh;
     margin-bottom: 5vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    max-width: 97%;
     padding: 5vh 5vw 5vh 5vw;
     margin-inline: auto ;
     min-height: 30vh;
@@ -138,9 +140,7 @@ color: white;
   
 }
 
-#offerTitle{
-    color: var(--primary)
-}
+
 
 .offerImg{
     margin-top: 1vh;

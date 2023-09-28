@@ -10,7 +10,7 @@ export default function Footer(){
         <footer>
         <Row>
             <Col>
-            <p className="copyright"> Copyright 2023 <a href='https://wlomac.github.io/React-portfolio/'>Wmac.webdev</a> All Rights Reserved. </p>
+            <p className="copyright"> Copyright 2023 <a href='https://wlomac.github.io/React-portfolio/'><span id='greenTxt'>Wmac.webdev</span></a> All Rights Reserved. </p>
             <p className="credits">Thanks to <a href='https://unsplash.com'>Unsplash</a> creators for images. See details <a href='https://github.com/WloMac/ANio#readme'>here</a></p>
             </Col>
         </Row>

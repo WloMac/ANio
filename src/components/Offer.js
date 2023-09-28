@@ -50,7 +50,7 @@ export default function Offer() {
 
   return (
     <section className="offer">
-      <h2 className="sectionTitle" id='offerTitle'> OFERTA </h2>
+      <h2 className="sectionTitle" id='greenTxt'> OFERTA </h2>
       {/* <Row xs={1} className="g-4"> */}
         {productList.map((list) => (
           <Col key={list.id}>
